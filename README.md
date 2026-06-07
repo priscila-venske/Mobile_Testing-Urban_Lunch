@@ -53,7 +53,7 @@ Validation of interactive map features, geo-location overlays, marker selections
 | ID | Brief Description | Status |
 |----|-------------------|--------|
 | **1** | Map correctly displays pickup points when viewing the active route | ✅ PASSED |
-| **2** | Name of pickup points is missing on the map after initialization | ❌ FAILED |
+| **2** | Name of pickup points is missing on the map after initialization | [❌ FAILED](https://drive.google.com/file/d/1yMhg_3TS3wX6_ptf2f-86Fw3VrFC07yK/view?usp=drive_link) |
 | **3** | No pickup point is pre-selected by default when opening the map view | ✅ PASSED |
 | **4** | Pickup point is properly highlighted when tapped on the map interface | ✅ PASSED |
 | **5** | Selection of a pickup point is canceled when repeatedly tapping the same marker | ✅ PASSED |
@@ -73,12 +73,12 @@ Validation of list rendering, item counters, navigation arrows, and data layer s
 | **11**| Each list row displays the item name, +/- counters, and navigation icons | ✅ PASSED |
 | **12**| Tapping a menu item row opens the detail page (excluding +/- buttons) | ✅ PASSED |
 | **13**| Tapping the add (+) button assigns the dish to the nearest store location | ✅ PASSED |
-| **14**| Selected items vanish from memory when returning to the top of the menu list | ❌ FAILED |
+| **14**| Selected items vanish from memory when returning to the top of the menu list | [❌ FAILED](https://drive.google.com/file/d/1cZ-DibMXq6Nj2Wxl3ORArV1c2uUVnjVD/view?usp=drive_link) |
 | **15**| "Next" footer button remains disabled when zero items are added to the cart | ✅ PASSED |
 | **16**| Back navigation arrow is properly displayed to the left of the dish title | ✅ PASSED |
 | **17**| Tapping the back arrow returns the user to the generic dish listing page | ✅ PASSED |
 | **18**| Tapping the restaurant name within a row increments the item quantity counter | ✅ PASSED |
-| **19**| Restaurant name layout text overlaps other item details in the list view | ❌ FAILED |
+| **19**| Restaurant name layout text overlaps other item details in the list view | [❌ FAILED](https://drive.google.com/file/d/1AFAs-rOx-Er4c7dP1720thsLh9YUhYyN/view?usp=drive_link) |
 
 ---
 
@@ -88,7 +88,7 @@ Validation of data aggregation, pricing calculation matrices, and summary checko
 | ID | Brief Description | Status |
 |----|-------------------|--------|
 | **20**| Screen allows smooth vertical scrolling when the order list is long | ✅ PASSED |
-| **21**| Grand total calculation fails to aggregate all combined items and delivery fees | ❌ FAILED |
+| **21**| Grand total calculation fails to aggregate all combined items and delivery fees | [❌ FAILED](https://drive.google.com/file/d/1QHilvq9redCqEXwnV-ZVCIHoJA_j5phc/view?usp=drive_link) |
 | **22**| Checkout "Order" button is prominently displayed in the screen footer layout | ✅ PASSED |
 | **23**| Tapping the "Order" button successfully redirects user to the tracking screen | ✅ PASSED |
 
@@ -101,9 +101,9 @@ Validation of timing scripts, active map tracking, and progress indicators.
 |----|-------------------|--------|
 | **24**| Map explicitly displays the designated customer pickup point for the order | ✅ PASSED |
 | **25**| Map displays active tracking routes connecting the restaurant to the pickup spot | ✅ PASSED |
-| **26**| Preparation countdown timer is missing from the order screen after adding items | ❌ FAILED |
+| **26**| Preparation countdown timer is missing from the order screen after adding items | [❌ FAILED](https://drive.google.com/file/d/1rN5IT3S35D-EFV9_cJVK3D-wBTEyM8un/view?usp=drive_link) |
 | **27**| Layout allows vertical scrolling when multi-item tracking summaries overflow | ✅ PASSED |
-| **28**| "Estimated Delivery Window" field is completely missing from the tracking screen | ❌ FAILED |
+| **28**| "Estimated Delivery Window" field is completely missing from the tracking screen | [❌ FAILED](https://drive.google.com/file/d/1DNxYeO6vnJLKdZn1OHHqsRMgUWa46C4P/view?usp=drive_link) |
 
 ---
 
@@ -113,11 +113,11 @@ Validation of post-purchase operations, feedback triggers, and layout resets.
 | ID | Brief Description | Status |
 |----|-------------------|--------|
 | **29**| UI redirects to "Order Delivered" screen automatically when the timer expires | ✅ PASSED |
-| **30**| Final pickup location marker is rendering incorrectly or misplaced on the map | ❌ FAILED |
+| **30**| Final pickup location marker is rendering incorrectly or misplaced on the map | [❌ FAILED](https://drive.google.com/file/d/1cCo2A438YRCCZgqniEvVq8JebY1tG2aJ/view?usp=drive_link) |
 | **31**| Tapping the completion button successfully flags the order status as completed | ✅ PASSED |
 | **32**| Feedback rating bar displays correctly and returns user to home screen upon submittal | ✅ PASSED |
 | **33**| System releases the session lock and allows choosing a new location after feedback | ✅ PASSED |
-| **34**| "I received my order" confirmation field fails to display post-delivery | ❌ FAILED |
+| **34**| "I received my order" confirmation field fails to display post-delivery | [❌ FAILED](https://drive.google.com/file/d/13iFpHZ2VP6DgAf5FPfJRZhi_ux90dALU/view?usp=drive_link) |
 
 ---
 
@@ -153,3 +153,6 @@ Out of **36 critical checklist checkpoints**, **8 UI/Functional bugs** were unco
 
 ## Author
 Project validated and curated as part of Mobile Quality Assurance and Application Performance Evaluation.
+
+## Assignment Approved
+[Project Approval](https://drive.google.com/file/d/1t12d9PHubgJ5rnAMbcSgD5wUZ4715w0g/view?usp=drive_link)
