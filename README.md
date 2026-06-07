@@ -38,10 +38,10 @@ This repository documents the comprehensive execution of a manual mobile applica
 ---
 
 ## Tools Used
-* **Android Studio / Xcode Emulators** (Device Simulation)
-* **Charles Proxy / Fiddle** (Network Traffic Inspection)
-* **Jira** (Defect Lifecycle Management)
-* **Microsoft Excel / Google Sheets** (Checklist Log Management)
+* **Android Studio Emulator (Pixel 5)** 
+* **Jira** 
+* **Figma**
+* **Google Sheets** 
 
 ---
 
