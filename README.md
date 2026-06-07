@@ -1,4 +1,4 @@
-# 📱 Urban Lunch — Mobile Application Testing Project
+# Urban Lunch — Mobile Application Testing Project
 
 > Mobile software testing project applied to the **Urban Lunch** food delivery application. This project focuses on end-to-end user flow validation, interactive map components, cart state retention, UI/UX consistency, and error handling mechanics across different order stages.
 
@@ -6,7 +6,13 @@
 
 ---
 
-## 📋 Overview
+## Objective
+
+Planning, documentation, and execution of manual tests for the Urban Lunch Android application, focusing on validating core user workflows, usability, functional requirements, and application behavior across the ordering process.
+
+---
+
+## Overview
 
 This repository documents the comprehensive execution of a manual mobile application testing cycle for the **Urban Lunch** platform. The activities covered entire lifecycle validation: from initial pickup point geo-selection and cart assembly to order confirmation, real-time tracking, and post-delivery feedback loops.
 
@@ -21,7 +27,7 @@ This repository documents the comprehensive execution of a manual mobile applica
 
 ---
 
-## 🎯 Core Competencies & Skills Demonstrated
+## Core Competencies & Skills Demonstrated
 
 * **Mobile UI/UX Layout Validation:** Evaluated component overlapping (such as restaurant name rendering flaws), responsiveness of long lists via scrolling wrappers, and back-navigation stacks.
 * **State Retention & Integrity Testing:** Assessed memory behavior and persistent data layers during reverse navigation (e.g., catching bugs where cart items vanished when users scrolled back).
@@ -31,7 +37,7 @@ This repository documents the comprehensive execution of a manual mobile applica
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 * **Android Studio / Xcode Emulators** (Device Simulation)
 * **Charles Proxy / Fiddle** (Network Traffic Inspection)
 * **Jira** (Defect Lifecycle Management)
@@ -39,9 +45,9 @@ This repository documents the comprehensive execution of a manual mobile applica
 
 ---
 
-## 🧪 Testing Scope & Test Cases
+## Testing Scope & Test Cases
 
-### 📍 Section 1 — Pickup Location Selection
+### Section 1 — Pickup Location Selection
 Validation of interactive map features, geo-location overlays, marker selections, and floating layout footers.
 
 | ID | Brief Description | Status |
@@ -58,7 +64,7 @@ Validation of interactive map features, geo-location overlays, marker selections
 
 ---
 
-### 🍔 Section 2 — Dish & Menu Selection
+### Section 2 — Dish & Menu Selection
 Validation of list rendering, item counters, navigation arrows, and data layer state persistence.
 
 | ID | Brief Description | Status |
@@ -76,7 +82,7 @@ Validation of list rendering, item counters, navigation arrows, and data layer s
 
 ---
 
-### 🧾 Section 3 — Order Confirmation
+### Section 3 — Order Confirmation
 Validation of data aggregation, pricing calculation matrices, and summary checkout buttons.
 
 | ID | Brief Description | Status |
@@ -88,7 +94,7 @@ Validation of data aggregation, pricing calculation matrices, and summary checko
 
 ---
 
-### ⏱️ Section 4 — Order Tracking & Pickup 
+### Section 4 — Order Tracking & Pickup 
 Validation of timing scripts, active map tracking, and progress indicators.
 
 | ID | Brief Description | Status |
@@ -101,7 +107,7 @@ Validation of timing scripts, active map tracking, and progress indicators.
 
 ---
 
-### 📦 Section 5 — Order Delivered Workflow 
+### Section 5 — Order Delivered Workflow 
 Validation of post-purchase operations, feedback triggers, and layout resets.
 
 | ID | Brief Description | Status |
@@ -115,7 +121,7 @@ Validation of post-purchase operations, feedback triggers, and layout resets.
 
 ---
 
-### ⚠️ Section 6 — Error Notifications 
+### Section 6 — Error Notifications 
 Validation of application responses under restricted system states or input errors.
 
 | ID | Brief Description | Status |
@@ -125,7 +131,7 @@ Validation of application responses under restricted system states or input erro
 
 ---
 
-## 📊 Test Execution Distribution
+## Test Execution Distribution
 
 ✅ PASSED     ██████████████████████████████  ~77.8%
 
@@ -135,7 +141,7 @@ Validation of application responses under restricted system states or input erro
 
 ---
 
-## 🔍 Key Findings & Bug Classification
+## Key Findings & Bug Classification
 
 Out of **36 critical checklist checkpoints**, **8 UI/Functional bugs** were uncovered. The issues can be categorized into three major risks:
 
@@ -145,5 +151,5 @@ Out of **36 critical checklist checkpoints**, **8 UI/Functional bugs** were unco
 
 ---
 
-## 👤 Author
+## Author
 Project validated and curated as part of Mobile Quality Assurance and Application Performance Evaluation.
