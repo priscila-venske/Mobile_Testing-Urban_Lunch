@@ -151,16 +151,6 @@ Out of **36 critical checklist checkpoints**, **8 UI/Functional bugs** were unco
 
 ---
 
-## Author
-Project validated and curated as part of Mobile Quality Assurance and Application Performance Evaluation.
+## 👤 Author
 
----
-
-## Assignment Approved
-[Project Approval](https://drive.google.com/file/d/1t12d9PHubgJ5rnAMbcSgD5wUZ4715w0g/view?usp=drive_link)
-
----
-
-## 📄 License
- 
-This repository is for educational use. The data and screenshots belong to the course's testing environment.
+Project developed as part of the **QA (Quality Assurance)** training program — TripleTen.
